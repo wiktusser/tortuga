@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, ArrowRight, Shield, Building, TrendingUp, Users, Check, Menu, X, Globe, Coins, Lock, FileText, BarChart3, Wallet } from 'lucide-react';
+import { ChevronDown, Shield, Building, TrendingUp, Users, Check, Menu, X, Globe, Coins, Lock, FileText, BarChart3, Wallet } from 'lucide-react';
 
 const TortugaLanding = () => {
   const phases = {
@@ -79,11 +79,10 @@ const TortugaLanding = () => {
               <a href="#problem" className="hover:text-teal-400 transition-colors">Problem</a>
               <a href="#solution" className="hover:text-teal-400 transition-colors">Solution</a>
               <a href="#products" className="hover:text-teal-400 transition-colors">Products</a>
-              <a href="#team" className="hover:text-teal-400 transition-colors">Team</a>
-              <button className="px-6 py-2.5 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-teal-500/25 transition-all duration-300 flex items-center gap-2">
+              <a href="https://docsend.com/view/6ubwequmbg4zkg2s" target="_blank" rel="noopener noreferrer" className="px-6 py-2.5 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-teal-500/25 transition-all duration-300 flex items-center gap-2">
                 <Wallet className="w-4 h-4" />
-                Get Early Access
-              </button>
+                Download Deck
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -100,10 +99,9 @@ const TortugaLanding = () => {
               <a href="#problem" className="block py-2 hover:text-teal-400">Problem</a>
               <a href="#solution" className="block py-2 hover:text-teal-400">Solution</a>
               <a href="#products" className="block py-2 hover:text-teal-400">Products</a>
-              <a href="#team" className="block py-2 hover:text-teal-400">Team</a>
-              <button className="w-full px-6 py-2.5 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-lg font-semibold">
-                Get Early Access
-              </button>
+              <a href="https://docsend.com/view/6ubwequmbg4zkg2s" target="_blank" rel="noopener noreferrer" className="block w-full px-6 py-2.5 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-lg font-semibold text-center">
+                Download Deck
+              </a>
             </div>
           </div>
         )}
@@ -125,18 +123,9 @@ const TortugaLanding = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-              Bridge the $16T+ real estate opportunity to Web3. Fully compliant, yield-bearing bonds live from Day 1.
+              Bridge the $16T+ RWA opportunity to Web3. Fully compliant, yield-bearing bonds backed by real estate live from Day 1.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <button className="px-8 py-4 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-lg font-semibold text-lg hover:shadow-xl hover:shadow-teal-500/25 transition-all duration-300 flex items-center justify-center gap-2">
-                Start Investing
-                <ArrowRight className="w-5 h-5" />
-              </button>
-              <button className="px-8 py-4 bg-white/10 backdrop-blur border border-white/20 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all duration-300">
-                Read Documentation
-              </button>
-            </div>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20">
@@ -389,35 +378,6 @@ const TortugaLanding = () => {
         </div>
       </section> */}
 
-      {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-teal-600 to-cyan-600 rounded-2xl p-12 text-center relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/20"></div>
-            <div className="relative z-10">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Be Part of the $16T+ RWA Revolution
-              </h2>
-              <p className="text-xl mb-8 text-white/90">
-                Get early access to institutional-grade real estate on-chain
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="px-6 py-3 rounded-lg bg-white/20 backdrop-blur border border-white/30 placeholder-white/60 text-white focus:outline-none focus:border-white/60"
-                />
-                <button className="px-8 py-3 bg-white text-slate-900 rounded-lg font-semibold hover:bg-white/90 transition-all duration-300">
-                  Join Waitlist
-                </button>
-              </div>
-              <p className="text-sm mt-4 text-white/70">
-                Join 500+ investors already on the waitlist
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="py-12 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
@@ -428,12 +388,6 @@ const TortugaLanding = () => {
                 <span className="text-white font-bold">T</span>
               </div>
               <span className="text-xl font-bold">Tortuga</span>
-            </div>
-            <div className="flex space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-teal-400 transition-colors">Documentation</a>
-              <a href="#" className="hover:text-teal-400 transition-colors">Twitter</a>
-              <a href="#" className="hover:text-teal-400 transition-colors">Discord</a>
-              <a href="#" className="hover:text-teal-400 transition-colors">Contact</a>
             </div>
           </div>
           <div className="mt-8 text-center text-sm text-gray-500">
